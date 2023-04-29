@@ -1,0 +1,66 @@
+/* Estilos generales */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial black;
+    }
+    
+    body {
+    font-family: Arial, sans-serif;
+    background-image: url("../img/Witching\ Hour.jpg");
+    }
+    
+    .container {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 5px 17px; 
+    border: 1px outset #800000;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
+    max-width: 400px !important;
+    margin: 0 auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+    }
+    @media only screen and (max-width: 768px) {
+        *{
+            font-family: Arial !important;
+        }
+        body {
+          background: #c31432 !important;
+        }
+        .container{
+          position: absolute;
+          top: 0%;
+          left: 0%;
+          transform: translate(0%, 0%); 
+        }
+        .nom {
+            font-size:24px;
+        }
+        .piña {
+            font-size:30px !important;
+        }
+      }
+
+  .container {
+      text-align: center;
+  }
+  .val {
+      color: #0070c6;
+  }
+  .piña {
+      font-size:24px;
+  }
+  .nom {
+      font-size:24px;
+  }
+  .img {
+      border: 2px solid #dddddd;
+      padding: 15px;
+  }
+  
